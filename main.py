@@ -3,7 +3,7 @@ import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
 from telegram.constants import ParseMode
-import constants
+import private
 import dice
 
 start_command_text = "start"
@@ -62,7 +62,7 @@ async def show_dice_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 if __name__ == '__main__':
     # If you create an Application object, using ApplicationBuilder, it will automatically create a Updater for you and link them together with an asyncio.Queue
-    application = ApplicationBuilder().token(constants.API_KEY).build()
+    application = ApplicationBuilder().token(private.API_KEY).build()
 
     start_handler = CommandHandler(start_command_text, help_command)
     help_handler = CommandHandler(help_command_text, help_command)
