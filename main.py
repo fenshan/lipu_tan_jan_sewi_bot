@@ -13,7 +13,6 @@ show_dice_command_text = "show_dice"
 
 fen_user = "@fen_nicolas"
 
-# https://github.com/python-telegram-bot/python-telegram-bot/wiki/Exceptions%2C-Warnings-and-Logging
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
@@ -23,8 +22,7 @@ logging.basicConfig(
 # async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
 #     await context.bot.send_message(
 #         chat_id=update.effective_chat.id, 
-#         text=f"I am ✨lipu tan jan sewi✨, a tool for random text generation in toki pona by {fen_user} :)", 
-#         # parse_mode= ParseMode.MARKDOWN_V2
+#         text=f"I am ✨lipu tan jan sewi✨, a tool for random text generation in toki pona by {fen_user} :)"
 #     )
 
 #help
