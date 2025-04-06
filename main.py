@@ -1,4 +1,6 @@
 #fen nicolas
+# tutorial https://github.com/python-telegram-bot/python-telegram-bot/wiki/Extensions---Your-first-Bot
+
 import logging
 from telegram import Update
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
@@ -11,7 +13,7 @@ help_command_text = "help"
 roll_dice_command_text = "roll_dice"
 show_dice_command_text = "show_dice"
 
-fen_user = "@fen_nicolas"
+fen_user = "@nicolasfen"
 
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
