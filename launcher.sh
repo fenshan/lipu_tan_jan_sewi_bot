@@ -1,8 +1,8 @@
 #!/bin/bash
 # launcher.sh
 
-BOT_DIR=~/Documents/lipu_tan_jan_sewi_bot
-VENV_DIR=~/.virtualenvs/telegram-bot
+BOT_DIR=/home/fnicolas/Documents/lipu_tan_jan_sewi_bot
+VENV_DIR=/home/fnicolas/.virtualenvs/telegram-bot
 
 # telegram-bot venv: python-telegram-bot, numpy
 
