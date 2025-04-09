@@ -6,7 +6,8 @@ VENV_DIR=/home/fnicolas/.virtualenvs/telegram-bot
 
 # telegram-bot venv: python-telegram-bot, numpy
 
-# install python-telegram-bot into telegram-bot venv
+# install/upgrade python-telegram-bot into telegram-bot venv
+# echo "install last version of python-telegram-bot into the python venv:"
 # $VENV_DIR/bin/pip install python-telegram-bot --upgrade
 
 # pull last version of the bot
