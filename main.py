@@ -41,9 +41,9 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 f"   ⛤ ⸸jan sewi⸸ will avoid choosing repeated dice when possible.\n\n"
 
             f"Examples:\n"
-                f"   <b>/{roll_dice_command_text}</> -> {dice.DEFAULT_N} dice will be rolled: ?, ?, ?, ?, ?, ?\n"
-                f"   <b>/{roll_dice_command_text} 3</b> -> 3 dice will be rolled: ?, ?, ?\n"
-                f"   <b>`/{roll_dice_command_text} 8 3 19 8 3`</b> -> 8 dice will be rolled: 3, 19, 8, 3, ?, ?, ?, ?\n\n"
+                f"   <code>/{roll_dice_command_text}</code> -> {dice.DEFAULT_N} dice will be rolled: ?, ?, ?, ?, ?, ?\n"
+                f"   <code>/{roll_dice_command_text} 3</code> -> 3 dice will be rolled: ?, ?, ?\n"
+                f"   <code>/{roll_dice_command_text} 8 3 19 8 3</code> -> 8 dice will be rolled: 3, 19, 8, 3, ?, ?, ?, ?\n\n"
             
             f"🔮 Message {fen_user} if you have any requests.",
         # parse_mode = ParseMode.MARKDOWN_V2
