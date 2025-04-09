@@ -24,16 +24,23 @@ array_dice = [
     ["ma", "pu", "ku", "lipu", "nasin", "nena"],
     ["sike", "nasa", "mani", "supa", "jasima", "sewi"],
     ["misikeke", "nimi", "n", "mu", "meso", "sitelen"],
-    ["ala", "wan", "tu", "mute", "ale", ""], #numbers
+    ["ala", "wan", "tu", "mute", "ale", ""], #numbers -> 5 instead of 6 options !!!
     ["kule", "walo", "pimeja", "laso", "jelo", "loje"], #colors
     ["anpa", "insa", "monsi", "sinpin", "poka", "selo"], #position
     ["pipi", "kala", "waso", "soweli", "akesi", "kijetesantakalu"], #animals
     ["luka", "kute", "oko", "lawa", "noka", "uta"] #body parts
 ]
-# KU SULI: kijetesantakalu epiku kipisi leko tonsi ku kokosila monsuta misikeke n lanpan meso jasima
-# a kin
-# sin namako
-# lukin oko
+
+# PU -> 120 words 
+# KU SULI -> 17 words
+# TOTAL -> 137 words (23*6 - 1)
+
+# KU SULI (17 words):
+#      * 14 nimi sin: kijetesantakalu epiku kipisi leko tonsi ku kokosila monsuta misikeke n lanpan meso jasima soko
+#      * 3 synonyms: 
+#           - oko (lukin from pu)
+#           - kin (a from pu)
+#           - namako (sin from pu)
 
 def show_dice():
     dice_text = ""
