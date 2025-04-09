@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # launcher.sh
 
 BOT_DIR=~/Documents/lipu_tan_jan_sewi_bot
