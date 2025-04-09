@@ -23,6 +23,7 @@ WantedBy=multi-user.target
 
 ```
 Useful commands:
-`sudo systemctl daemon-reload`, 
-`sudo systemctl start telegrambot.service`, 
-`sudo systemctl status telegrambot.service`
+- `sudo systemctl daemon-reload`
+- `sudo systemctl enable telegrambot.service`
+- `sudo systemctl start telegrambot.service`
+- `sudo systemctl status telegrambot.service`
