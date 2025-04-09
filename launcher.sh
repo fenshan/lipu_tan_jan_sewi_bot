@@ -10,10 +10,10 @@ VENV_DIR=~/.virtualenvs/telegram-bot
 # $VENV_DIR/bin/pip install python-telegram-bot --upgrade
 
 # pull last version of the bot
+echo "pull last version of the bot from github:"
 cd $BOT_DIR
 git pull
 cd ~/
-echo "last version of the bot pulled from github"
 
 # activate telegram-bot environment
 # source $VENV_DIR/bit/activate
