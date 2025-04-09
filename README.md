@@ -15,7 +15,7 @@ After=network.target
 [Service]
 Type=simple
 User=root
-ExecStart=/bin/bash /home/fnicolas/Documents/lipu_tan_jan_sewi_bot/launcher.sh
+ExecStart=%h/Documents/lipu_tan_jan_sewi_bot/launcher.sh
 Restart=on-failure
 
 [Install]
