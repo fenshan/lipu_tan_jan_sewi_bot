@@ -43,7 +43,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
             f"Examples:\n"
                 f"   <b>/{roll_dice_command_text}</> -> {dice.DEFAULT_N} dice will be rolled: ?, ?, ?, ?, ?, ?\n"
                 f"   <b>/{roll_dice_command_text} 3</b> -> 3 dice will be rolled: ?, ?, ?\n"
-                f"   <b>/{roll_dice_command_text} 8 3 19 8 3</b> -> 8 dice will be rolled: 3, 19, 8, 3, ?, ?, ?, ?\n\n"
+                f"   <b>`/{roll_dice_command_text} 8 3 19 8 3`</b> -> 8 dice will be rolled: 3, 19, 8, 3, ?, ?, ?, ?\n\n"
             
             f"🔮 Message {fen_user} if you have any requests.",
         # parse_mode = ParseMode.MARKDOWN_V2
