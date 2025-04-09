@@ -1,4 +1,5 @@
 # launcher.sh
+# !/bin/bash
 
 BOT_DIR=~/Documents/lipu_tan_jan_sewi_bot
 VENV_DIR=~/.virtualenvs/telegram-bot
