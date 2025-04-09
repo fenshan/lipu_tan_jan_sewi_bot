@@ -22,3 +22,7 @@ Restart=on-failure
 WantedBy=multi-user.target
 
 ```
+Useful commands:
+`sudo systemctl daemon-reload`, 
+`sudo systemctl start telegrambot.service`, 
+`sudo systemctl status telegrambot.service`
